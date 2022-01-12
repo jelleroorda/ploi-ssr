@@ -4,8 +4,11 @@ It's a bare bones Laravel app with Inertia SSR enabled.
 
 ## Getting it running locally
 
-- Clone the project
+- Clone the project: `git clone git@github.com:jelleroorda/ploi-ssr.git`
+- Enter the project: `cd ploi-ssr`
 - Run `composer install`
+- Run `cp .env.example .env`
+- Run `php artisan key:generate`
 - Run `npm install`
 - Run `npm run prod`
 - Serve the project with something like valet.
@@ -13,6 +16,11 @@ It's a bare bones Laravel app with Inertia SSR enabled.
 
 You should now be able to get the page source of the page, which should contain the HTML as well.
 If you don't run the node server the HTML will disappear.
+
+[http://ploi-ssr.test](http://ploi-ssr.test)
+
+[view-source:http://ploi-ssr.test](view-source:http://ploi-ssr.test)
+
 
 ## Installing it on Ploi (TLDR)
 
